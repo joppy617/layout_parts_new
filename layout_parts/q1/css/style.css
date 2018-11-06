@@ -1,5 +1,40 @@
-@charset "UTF-8";
+@charset "utf-8";
 
-/* 回答はここに書いてね */
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
-/* 回答はここに書いてね */
+.box_model {
+  background-color: #eff3f4;
+  padding: 20px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.items {
+  float: left;
+  background-color: #3274ae;
+  padding: 20px;
+  margin-left: 20px;
+  width: 230px;
+}
+.items:first-child {
+  margin-left: 0px;
+}
+
+.article {
+  background-color: #eaf4ff;
+  border: 10px solid #022336 ;
+  display: block;
+}
+
+.sentence {
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  word-wrap: break-word;
+  /*width: 170px;*/
+
+}

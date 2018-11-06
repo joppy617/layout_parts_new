@@ -32,26 +32,26 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="btn-common btn-small">common</div>
+            <div class="btn-error btn-small">error</div>
+            <div class="btn-disabled btn-small">disabled</div>
+            <div class="btn-shadow btn-small">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="btn-common btn-middle">common</div>
+            <div class="btn-error btn-middle">error</div>
+            <div class="btn-disabled btn-middle">disabled</div>
+            <div class="btn-shadow btn-middle">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="btn-common btn-large">common</div>
+            <div class="btn-error btn-large">error</div>
+            <div class="btn-disabled btn-large">disabled</div>
+            <div class="btn-shadow btn-large">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -98,8 +98,74 @@
           -->
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
-          <div class="q8">
-            
+          <div class="q8 form-box">
+            <form action="" method="">
+              <div class="form-exercise">
+                <p class="form_title">Form Exercise</p>
+              </div>
+              <div class="form-main clearfix">
+                <div class="form-left">
+                  <ul class="form-items">
+                    <li class="form-item clearfix">
+                      <p class="form_item_left">名前<span class="color-red">*</span></p>
+                      <div class="form_item_right"><input type="text" name="name" class="q8-input"></div>
+                    </li>
+                    <li class="form-item clearfix">
+                      <p class="form_item_left">性別</p>
+                      <div class="form_item_right">
+                      <label>
+                        <input type="radio" class="form_radiobox" name="gender" value="male">
+                      <span class="gender">男性</span>
+                      </label>
+                      <label>
+                        <input type="radio" class="form_radiobox" name="gender" value="female">
+                        <span class="gender">女性</span>
+                        </label>
+                      </div>
+                    </li>
+                    <li class="form-item clearfix">
+                      <p class="form_item_left">出身</p>
+                      <div class="form_item_right select-after">
+                        <select name="region" class="q8-input select-style form-select">
+                          <option value="東京">東京</option>
+                          <option value="埼玉">埼玉</option>
+                          <option value="千葉">千葉</option>
+                          <option value="神奈川">神奈川</option>
+                        </select>
+                      </div>
+                    </li>
+                    <li class="form-item clearfix">
+                      <p class="form_item_left">Eメール<span class="color-red">*</span></p>
+                      <div class="form_item_right">
+                        <input type="email" name="email" placeholder="ex) hoge@gmail.com" class="q8-input">
+                      </div>
+                    </li>
+                    <li class="form-item clearfix">
+                      <p class="form_item_left">電話番号</p>
+                      <div class="form_item_right">
+                        <input type="tel" name="tel" placeholder="ex) 08012345678" class="q8-input">
+                      </div>
+                    </li>
+                    <li class="form-item clearfix">
+                      <div class="form_item_right form_checkbox">
+                        <label>
+                          <input type="checkbox" name="age" value="on" class="input_checkbox">
+                          <span class="label_checkbox">
+                            20歳以上です
+                          </span>
+                        </label>
+                      </div>
+                    </li>
+                    <li class="form-item clearfix">
+                      <button type="submit" name="submit" value="送信" class="btn-submit">送信</button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="form-right">
+                  <textarea name="" id="" cols="30" rows="10" class="q8-input textarea"  placeholder="何かあれば入力してください。"></textarea>
+                </div>
+              </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -107,3 +173,6 @@
     </div>
   </body>
 </html>
+
+
+

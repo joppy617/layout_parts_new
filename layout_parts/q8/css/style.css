@@ -2,4 +2,285 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  content: "";
+  display :block;
+  clear: both;
+}
+
+.btn-common {
+  background-color: #00bcd4;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-error {
+  background-color: #ff4081;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-disabled {
+  background-color: #e5e5e5;
+  color: white;
+  /*cursor: pointer;*/
+}
+
+.btn-shadow {
+  background-color: white;
+  color: #222;
+  box-shadow: 0 1px 6px rgba(0,0,0,.12) , 0 1px 4px rgba(0,0,0,.12);
+  cursor: pointer;
+}
+
+.btn-small {
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 0 15px;
+  line-height: 26px;
+}
+
+.btn-middle {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 0 20px;
+  line-height: 32px;
+}
+
+.btn-large {
+  border-radius: 7px;
+  font-size: 24px;
+  padding: 0 25px;
+  line-height: 38px;
+}
+
+.btn-common, .btn-error, .btn-disabled, .btn-shadow {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.btn-common {
+  margin-left: 0;
+}
+
+.form-box {
+  background-color: #ECF1F2;
+  padding: 20px;
+  width: 700px;
+  margin: 0 auto;
+}
+
+.form-exercise {
+  position: relative;
+}
+
+.form-exercise::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #ccc;
+  content: "";
+}
+
+.form_title {
+  background-color: #ECF1F2;
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+
+.form-main {
+  padding-top: 20px;
+}
+
+.form-left {
+  float: left;
+  width: 300px;
+}
+
+.form-right {
+  float: right;
+  width: 380px;
+}
+
+.form_item_left {
+  float: left;
+  width: 100px;
+  line-height: 25px;
+  text-align: right;
+}
+
+.form_item_right {
+  width: 180px;
+  float: right;
+}
+
+.form-items li {
+  margin-top: 20px;
+}
+.form-items li:first-child {
+  margin-top: 0;
+}
+
+.color-red {
+  color: red;
+}
+
+.q8-input {
+  width: 100%;
+  padding: 5px;
+  border-radius: 3px;
+  border: none;
+  box-sizing: border-box;
+  background-color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  -webkit-appearance: none;
+}
+
+.q8-input:focus {
+  box-shadow: 0 0 10px #00bcd4;
+  outline: 0;
+}
+
+.q8-input_style {
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  font-size: 16px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form_radiobox {
+  display: none;
+}
+
+.form_checkbox {
+  text-align: right;
+}
+
+.gender {
+  padding:3px 3px 3px 20px;
+  position: relative;
+}
+
+.gender::before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: "";
+}
+
+.form_radiobox:checked + .gender:after {
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00BCD4;
+  border-radius: 50%;
+  content: "";
+}
+
+.form-right textarea {
+  width: 100%;
+  height: 203px;
+}
+
+.btn-submit {
+  background-color:  #00bcd4;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0 10px;
+  float: right;
+  font-size: 16px;
+  line-height: 26px;
+
+  padding: 0 10px;
+}
+
+.input_checkbox {
+  display: none;
+}
+
+.label_checkbox {
+  position: relative;
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.label_checkbox:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  margin-top: -9px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: "";
+}
+
+.input_checkbox:checked + .label_checkbox:after {
+  position: absolute;
+  top: 50%;
+  left: 6px;
+  margin-top: -14px;
+  width: 8px;
+  height: 16px;
+  border-right: 3px solid #00BCD4;
+  border-bottom: 3px solid #00BCD4;
+  transform: rotate(45deg);
+  content: "";
+}
+
+.textarea {
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.form-select {
+  cursor: pointer;
+}
+
+.select-after {
+  position: relative;
+}
+
+.select-after:after {
+  content: '';
+  width: 8px;
+  height: 8px;
+  border: 0px;
+  border-bottom: solid 2px #e5e5e5;
+  border-right: solid 2px #e5e5e5;
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  margin-top: -7px;
+}
+
 /* 回答はここに書いてね */

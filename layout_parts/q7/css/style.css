@@ -2,4 +2,99 @@
 
 /* 回答はここに書いてね */
 
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+.float_1 {
+  float: left;
+  width: 205px;
+}
+
+.float_2 {
+  float: right;
+  width: 205px;
+}
+
+.div_table {
+  display: table;
+  padding: 20px;
+}
+
+.div_table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 50px;
+  width: 225px;
+}
+.div_table-cell:first-child {
+  padding-left: 0px;
+}
+
+.table_width {
+  padding: 20px;
+}
+
+.inline-box {
+  font-size: 0px;
+}
+
+.inline {
+  display: inline-block;
+  margin-left: 50px;
+  box-sizing: border-box;
+  width: 225px;
+  vertical-align: middle;
+  font-size: 16px;
+
+}
+.inline:first-child {
+  margin-left: 0;
+}
+
+.flex_box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 205px;
+}
+
+.flex-item:first-child {
+  /*margin-left: 0px;*/
+}
+
+.is-full {
+  width: 100%;
+  font-size: 0;
+}
+
+.div_inline-block1 {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.div_inline-block2 {
+  display: inline-block;
+  width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+
+
+
+
+
 /* 回答はここに書いてね */

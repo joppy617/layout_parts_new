@@ -2,4 +2,93 @@
 
 /* 回答はここに書いてね */
 
+.div_text-align {
+  text-align: center;
+}
+
+.p_text-align {
+  display: inline-block;
+  background-color: #e6f2ff;
+  width: 70px;
+  padding: 10px;
+}
+
+.margin_center {
+  background-color: #e6f2ff;
+  text-align: center;
+  width: 70px;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.div_table {
+  display: table;
+  text-align: center;
+}
+
+.p_table {
+  background-color: #fff;
+  display: table-cell;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+
+
+
+
+.question_table {
+  display: table;
+}
+
+.div_table {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.p_table {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.div_flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.p_flex {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.div_position_absolute {
+  position: relative;
+}
+
+.p_position_absolute {
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.div_position_transform {
+  position: relative;
+}
+
+.p_position_transform {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
 /* 回答はここに書いてね */

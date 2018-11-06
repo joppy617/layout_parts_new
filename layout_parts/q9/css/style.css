@@ -1,5 +1,81 @@
-@charset "UTF-8";
-
 /* 回答はここに書いてね */
+@charset "utf-8";
+
+.background {
+  /*text-align: center;*/
+  width: 500px;
+  height: 333px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.hover_photo {
+  transition-duration: 0.5s;
+}
+
+.background:hover .hover_photo {
+  transition-duration: 0.5s;
+  transform: scale(1.5);
+}
+
+.sentence {
+  position: absolute;
+  bottom: -160px;
+  padding: 20px;
+  word-break: break-all;
+  font-size: 16px;
+  line-height: 16px;
+  color: white;
+  background: linear gradient(0, 0, 0, 0.8);
+  z-index: 2;
+  transition-duration: 0.5s;
+}
+
+.background:hover .sentence {
+  /*position: absolute;*/
+  transition-duration: 0.5s;
+  bottom: 0;
+  background: -moz-linear-gradient(top, rgba(0,0,0,0), rgba(0,0,0,8));
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0).rgba(0,0,0,8));
+  background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,8));
+
+}
+
+.back {
+  text-align: center;
+}
+
+.curcle {
+  border: 10px solid #ecf1f2;
+  border-right-color: #00bcd4;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+
+
+
+
+
+
 
 /* 回答はここに書いてね */

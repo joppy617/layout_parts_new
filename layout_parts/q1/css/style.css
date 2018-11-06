@@ -27,7 +27,6 @@
 .article {
   background-color: #eaf4ff;
   border: 10px solid #022336 ;
-  display: block;
 }
 
 .sentence {
@@ -35,6 +34,4 @@
   font-size: 16px;
   line-height: 16px;
   word-wrap: break-word;
-  /*width: 170px;*/
-
 }

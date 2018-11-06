@@ -2,40 +2,38 @@
 
 /* 回答はここに書いてね */
 
-  tr, th, td {
-    text-align: center;
-    padding: 10px;
+.food tr, th, td {
+  text-align: center;
+  padding: 10px;
+}
 
-  }
+.food {
+  width: 100%;
+  table-layout: fixed;
+}
 
-  .food {
-    width: 100%;
-    table-layout: fixed;
-  }
+.food  th, .food td {
+  border: solid #dedede 1px;
+}
 
-  /*table th {
-    background-color: #24a;
-    font-size: 18px;
-    line-height: 26px;
-  }*/
+.food th {
+  background-color: #24a;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+}
 
-  table tr th, table tr td {
-    border: solid #dedede 1px;
-  }
+.food tr:nth-child(2n+1) {
+  background-color: #ecf1f2;
+}
 
-  .food th, tr td:first-child {
-    background-color: #24a;
-    color: white;
-    font-size: 18px;
-    line-height: 26px;
-  }
+.food tr:last-child {
+  border-top: dashed #000 2px;
+}
 
-  .food tr:nth-child(2n+1) {
-    background-color: #ecf1f2;
-  }
-  tr:last-child {
-    border-top: dashed #000 2px;
-  }
 
+
+インデント揃える
+指定を明確に
 
 /* 回答はここに書いてね */

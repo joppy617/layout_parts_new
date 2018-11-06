@@ -211,8 +211,14 @@
   float: right;
   font-size: 16px;
   line-height: 26px;
-
   padding: 0 10px;
+  outline: none;
+  border: none;
+}
+
+.btn-submit:active {
+  background-color: #fff;
+  color: #00bcd4;
 }
 
 .input_checkbox {
@@ -283,4 +289,6 @@
   margin-top: -7px;
 }
 
+/*送信ボタン*/
+/*form送信ボタン border線 削除*/
 /* 回答はここに書いてね */

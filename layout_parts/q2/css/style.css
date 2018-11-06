@@ -16,10 +16,13 @@
   padding: 20px;
 }
 
-.contents {
+.image-left {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 10px;
 }
 
-.first img {
+.image-right {
   float: left;
   margin-right: 20px;
   margin-bottom: 10px;
@@ -31,11 +34,6 @@
   line-height: 22px;
 }
 
-.second img {
-  float: right;
-  margin-left: 20px;
-  margin-bottom: 10px;
-}
 
 
 /* 回答はここに書いてね */
